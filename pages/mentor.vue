@@ -1,4 +1,4 @@
-<template>
+template>
   <v-app id="inspire">
     <v-content>
       <v-container fluid fill-height>
