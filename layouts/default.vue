@@ -5,9 +5,10 @@
       <v-toolbar-title>Project-ENABLE</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
-        <v-btn flat>HOME</v-btn>
-        <v-btn flat>CONTACT</v-btn>
-        <v-btn flat>LOGIN</v-btn>
+        <v-btn flat nuxt to="/">Home</v-btn>
+        <v-btn flat nuxt to="/">Contact</v-btn>
+        <v-btn flat nuxt to="/loginForm">Login</v-btn>
+        <v-btn flat nuxt to="/">Sign Up</v-btn>
       </v-toolbar-items>
     </v-toolbar>
     <v-footer
