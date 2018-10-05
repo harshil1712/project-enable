@@ -1,4 +1,5 @@
 <template>
+
   <v-app dark>
     <v-toolbar>
       <v-toolbar-title>Project-ENABLE</v-toolbar-title>
@@ -17,7 +18,10 @@
     </v-footer>
     <nuxt/>
   </v-app>
+
+
 </template>
+
 
 <script>
   export default {
