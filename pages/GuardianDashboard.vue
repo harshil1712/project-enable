@@ -10,7 +10,7 @@
       color="grey lighten-2"
       dark
     >     
-      <v-btn round color="primary" dark to="videoSession">Session Start</v-btn>
+      <v-btn round color="primary" dark to="videoSession">Session Start with Tutor</v-btn>
       
     </v-toolbar>
 
@@ -27,7 +27,7 @@
                 
               </v-card-title>
               <v-card-actions>
-                <v-btn round color="primary" dark>Submit</v-btn>
+                <v-btn round color="primary" dark>View Details</v-btn>
               </v-card-actions>
             </v-card>
           </v-flex>
@@ -44,7 +44,7 @@
                 
              
               <v-card-actions >
-                   <v-btn round color="primary" dark>Submit</v-btn>
+                   <v-btn round color="primary" dark>View Details</v-btn>
                 
                 
               </v-card-actions>
@@ -58,7 +58,26 @@
                 
               </v-card-title>
               <v-card-actions>
-                <v-btn round color="primary" dark>Submit</v-btn>
+                <v-btn round color="primary" dark>View Details</v-btn>
+              </v-card-actions>
+            </v-card>
+          </v-flex>
+
+          <v-flex xs12>
+            <v-card color="#E0E0E0" class="black--text">
+              
+                  <v-card-title primary-title>
+                    
+                      <div class="headline">Any Queries?</div>
+                      
+                
+                  </v-card-title>
+                
+             
+              <v-card-actions >
+                   <v-btn round color="primary" dark>Add</v-btn>
+                
+                
               </v-card-actions>
             </v-card>
           </v-flex>
