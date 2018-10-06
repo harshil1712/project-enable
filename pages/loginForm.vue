@@ -1,5 +1,4 @@
 <template>
-<div>
   <v-app id="inspire">
     <v-content>
       <v-container fluid fill-height>
@@ -43,7 +42,7 @@ export default {
       if(this.$refs.emailInput.value=='mentor' && this.$refs.passwordInput.value=='mentor'){
         this.$router.push("/")
       } else if(this.$refs.emailInput.value=='tutor' && this.$refs.passwordInput.value=='tutor'){
-        this.$router.push("/")
+        this.$router.push("/TutorDashboard")
       } else if(this.$refs.emailInput.value=='student' && this.$refs.passwordInput.value=='student'){
         this.$router.push("/studentdashboard")
       } else if(this.$refs.emailInput.value=='guardian' && this.$refs.passwordInput.value=='guardian'){
