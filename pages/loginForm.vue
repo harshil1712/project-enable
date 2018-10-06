@@ -1,4 +1,5 @@
 <template>
+<div>
   <v-app id="inspire">
     <v-content>
       <v-container fluid fill-height>
@@ -23,6 +24,7 @@
               </v-card-text>
               <v-card-actions>
                 <v-spacer></v-spacer>
+                <p class="text-sm-left blue--text "><u>Forgot Password?</u></p>
                 <v-btn color="primary">Login</v-btn>
               </v-card-actions>
             </v-card>
@@ -31,4 +33,5 @@
       </v-container>
     </v-content>
   </v-app>
+  </div>
 </template>
