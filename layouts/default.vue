@@ -8,7 +8,7 @@
         <v-btn flat nuxt to="/">Home</v-btn>
         <v-btn flat nuxt to="/">Contact</v-btn>
         <v-btn flat nuxt to="/loginForm">Login</v-btn>
-        <v-btn flat nuxt to="/">Sign Up</v-btn>
+        <v-btn flat nuxt to="/signup">Sign Up</v-btn>
       </v-toolbar-items>
     </v-toolbar>
     <v-footer
