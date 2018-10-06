@@ -34,6 +34,7 @@
                   <v-text-field prepend-icon="person" name="PROFESSION" label="PROFESSOIN" type="text"></v-text-field>
                   <v-text-field prepend-icon="person" name="SPECIALITY" label="SPECIALITY" type="text"></v-text-field>
                   <v-text-field prepend-icon="person" name="E-MAIL ID" label="E-MAIL ID" type="text"></v-text-field>
+                  <v-text-field prepend-icon="person" name="Skype ID" label="Skype ID" type="text"></v-text-field>
                   <v-text-field id="password" prepend-icon="lock" name="password" label="Password" type="password"></v-text-field>
                 </v-form>
               </v-card-text>

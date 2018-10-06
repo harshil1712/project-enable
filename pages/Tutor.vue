@@ -35,8 +35,7 @@
                   <v-text-field prepend-icon="person" name="Address" label="Address" type="text"></v-text-field>
                   <v-text-field prepend-icon="person" name="AvailibilityTime" label="AvailibilityTime" type="text"></v-text-field>
                   <v-text-field prepend-icon="person" name="EMailId" label="E-Mail Id" type="text"></v-text-field>
-                  
-                  
+                  <v-text-field prepend-icon="person" name="Skype ID" label="Skype ID" type="text"></v-text-field>
                   <v-text-field id="password" prepend-icon="lock" name="password" label="Password" type="password"></v-text-field>
                 </v-form>
               </v-card-text>
