@@ -37,6 +37,7 @@
                   <v-text-field prepend-icon="person" name="Learning Hours" label="Learning Hours" type="text"></v-text-field>
                   <v-text-field prepend-icon="person" name="Time Preference" label="Time Preference" type="text"></v-text-field>
                   <v-text-field prepend-icon="person" name="Age" label="Age" type="text"></v-text-field>
+                  <v-text-field prepend-icon="person" name="Skype ID" label="Skype ID" type="text"></v-text-field>
                   
                   <v-text-field id="password" prepend-icon="lock" name="password" label="Password" type="password"></v-text-field>
                 </v-form>
