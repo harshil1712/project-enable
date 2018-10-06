@@ -6,7 +6,7 @@
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
         <v-btn flat nuxt to="/" color="white">Home</v-btn>
-        <!-- <v-btn flat nuxt to="/">Contact</v-btn> -->
+        <v-btn flat nuxt to="/about" color="white">About</v-btn>
         <v-btn flat nuxt to="/loginForm" color="white">Login</v-btn>
         <v-btn flat nuxt to="/signup" color="white">Sign Up</v-btn>
       </v-toolbar-items>

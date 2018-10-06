@@ -92,7 +92,7 @@
         </v-layout>
       </section>
 
-      <section>
+      <section class="white">
         <v-container grid-list-xl>
           <v-layout row wrap justify-center class="my-5">
             <v-flex xs12 sm4>
