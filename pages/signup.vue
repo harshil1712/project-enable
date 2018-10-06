@@ -3,14 +3,14 @@
   <v-layout v-bind="binding">
   <v-layout row wrap>
   <v-flex md4 xs12>
-    <nuxt-link to='inspire'>
+    <nuxt-link to='guardian'>
         <v-card dark color="primary">
          <v-card-text><h1>Guardian</h1></v-card-text>
         </v-card>
     </nuxt-link>
   </v-flex>
     <v-flex md4 xs12>
-      <nuxt-link to='inspire'>
+      <nuxt-link to='tutor'>
         <v-card dark color="primary">
           <v-card-text><h1>Tutor</h1></v-card-text>
         </v-card>
