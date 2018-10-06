@@ -88,6 +88,7 @@
       </v-flex>
       </v-layout>
   </v-container>
+   <v-text-field id="password" prepend-icon="lock" name="password" label="Password" type="password"></v-text-field>
   <v-checkbox
       v-model="checkbox"
       :rules="[v => !!v || 'You must agree to continue!']"
