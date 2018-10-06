@@ -30,12 +30,12 @@
               <v-card-text>
                 <v-form>
                   <v-text-field prepend-icon="person" name="FULL NAME" label="FULL NAME" type="text"></v-text-field>
-                  <v-text-field prepend-icon="person" name="Profession" label="Profession" type="text"></v-text-field>
-                  <v-text-field prepend-icon="person" name="AreaOfInterest" label="Area Of Interest" type="text"></v-text-field>
-                  <v-text-field prepend-icon="person" name="Address" label="Address" type="text"></v-text-field>
-                  <v-text-field prepend-icon="person" name="AvailibilityTime" label="AvailibilityTime" type="text"></v-text-field>
-                  <v-text-field prepend-icon="person" name="EMailId" label="E-Mail Id" type="text"></v-text-field>
-                  <v-text-field prepend-icon="person" name="Skype ID" label="Skype ID" type="text"></v-text-field>
+                  <v-text-field prepend-icon="build" name="Profession" label="Profession" type="text"></v-text-field>
+                  <v-text-field prepend-icon="build" name="AreaOfInterest" label="Area Of Interest" type="text"></v-text-field>
+                  <v-text-field prepend-icon="home" name="Address" label="Address" type="text"></v-text-field>
+                  <v-text-field prepend-icon="history" name="AvailibilityTime" label="AvailibilityTime" type="text"></v-text-field>
+                  <v-text-field prepend-icon="explicit" name="EMailId" label="E-Mail Id" type="text"></v-text-field>
+                  <v-text-field prepend-icon="backup" name="Skype ID" label="Skype ID" type="text"></v-text-field>
                   <v-text-field id="password" prepend-icon="lock" name="password" label="Password" type="password"></v-text-field>
                 </v-form>
               </v-card-text>
