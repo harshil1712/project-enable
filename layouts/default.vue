@@ -1,28 +1,32 @@
 <template>
-
-  <v-app dark>
-    <v-toolbar>
-      <v-toolbar-title>Project-ENABLE</v-toolbar-title>
+  <v-app light>
+    <v-toolbar color="primary" 
+      :fixed="fixed">
+      <v-toolbar-title class="whiteColor">Project-ENABLE</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
-        <v-btn flat nuxt to="/">Home</v-btn>
-        <v-btn flat nuxt to="/">Contact</v-btn>
-        <v-btn flat nuxt to="/loginForm">Login</v-btn>
-        <v-btn flat nuxt to="/">Sign Up</v-btn>
+        <v-btn flat nuxt to="/" color="white">Home</v-btn>
+        <v-btn flat nuxt to="/about" color="white">About</v-btn>
+        <v-btn flat nuxt to="/loginForm" color="white">Login</v-btn>
+        <v-btn flat nuxt to="/signup" color="white">Sign Up</v-btn>
       </v-toolbar-items>
     </v-toolbar>
     <v-footer
-      :fixed="fixed"
       app
     >
-      <span>&copy; 2017</span>
+    <span>&copy; 2017</span>
     </v-footer>
     <nuxt/>
   </v-app>
 
-
+  
 </template>
 
+<style scoped>
+.whiteColor{
+  color: aliceblue;
+}
+</style>
 
 <script>
   export default {
